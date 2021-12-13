@@ -1,0 +1,47 @@
+<!DOCTYPE html">
+<html lang="en">
+<head>
+	<title>Library App</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="styles.css" />	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div class="conteiner">
+		<h1 class="title">Add New Book</h1>
+		<div class="box">
+			<form id="formulage">
+				<label for="txtTitle">Title</label><br>
+				<input type="text" id="txtTitle"  required><br>
+				<label for="txtAuthor">Author</label><br>
+				<input type="text" id="txtAuthor"  required><br>
+				<label for="txtPrio">Priority (1-5)</label><br>
+				<input type="number" min="1" max="5" id="txtPrio"  required><br>
+				<label for="txtCat">Category</label><br>
+				<select type="text" id="txtCat" placeholder="Category" required>
+					<option>Fable</option>
+					<option>Story</option>
+					<option>History</option>
+				</select><br>
+				<input type="submit" name="" id="btnSubmit" value="Submit">
+			</form>
+		</div>
+		<table>
+			<caption><h2>Library</h2></caption>
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Priority</th>
+					<th>Category</th>
+				</tr>
+			</thead>
+			<tbody id="tbodyResult"></tbody>
+			<tfoot></tfoot>
+		</table>
+	</div>
+</body>
+</html>

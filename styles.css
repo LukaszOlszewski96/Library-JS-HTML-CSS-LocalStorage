@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {	
+	background-image: linear-gradient(to right top, #30074f, #33125e, #351d6d, #34277c, #31318c);
+	display: table;
+	margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {	
+	text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulage {	
+	width: 500px;
+	height: 350px;
+	margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+form {	
+	width: 260px;
+	height: auto;
+	margin: 0 auto auto auto;
+	padding: 20px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form label { 
+    font-size: 18px;
+	color: #fff;
+}
+
+form input {		
+    box-sizing: border-box;
+    border: none;
+	outline: none;
+    font: 15px arial, sans-serif;
+    margin-bottom: 12px;	
+}
+
+form input[type=text] {
+	width: 100%;
+	padding: 3px 5px;
+}
+
+form input[type=submit] {
+	background-color: rgb(67, 9, 213);				
+	color: #fff;
+	padding: 12px 32px; 
+	border-radius: 20px;  		
+	cursor: pointer;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20px;			
+}
+
+table {
+	width: auto;
+	margin: 0 auto;
+    border-collapse: collapse;    
+}
+
+table caption {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 10PX;
+}
+
+table thead tr { 
+	background-color: rgb(67, 9, 213);	
+	color:white;
+}
+
+table thead tr th {		
+	padding: 3px 8px;
+	border:2px solid #fff;
+}
+
+table tbody td{	
+	border: 1px solid #fff;
+	padding: 3px 6px;
+	color: #fff;
+}
+
+table .material-icons{
+	border-radius: 10px;
+	color: #fff;
+	padding: 3px 15px;
+	cursor: pointer;
+}
